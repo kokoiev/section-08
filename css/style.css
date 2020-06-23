@@ -69,7 +69,7 @@
 
 .eight-title {
     padding-top: 50px;
-    width: 280px;
+    width: 225px;
     display: block;
     font-size: 14px;
     font-family: "Montserrat";
@@ -78,13 +78,14 @@
     line-height: 1.86;
     text-align: center;
     margin: 0 auto;
+
 }
 
 .eight-text {
     padding-top: 25px;
     margin: 0 auto;
     display: block;
-    width: 280px;
+    width: 240px;
     font-size: 11px;
     font-family: "Montserrat";
     color: rgb(255, 255, 255);
@@ -169,4 +170,91 @@
     width: 320px;
     height: 180px;
     margin: 0 auto;
+}
+
+.eight-title-lastline {
+    margin: 0 0;
+}
+
+@media (min-width: 767px) {
+    .eight-container {
+        width: 768px;
+        background-image: url(../image8/tabletfon.png);
+    }
+
+    .eight-title {
+        font-size: 22px;
+        width: 500px;
+    }
+
+    .eight-text {
+        font-size: 15px;
+        width: 420px;
+        text-align: left;
+    }
+
+    .eight-text-lastline {
+        display: block;
+    }
+
+    .eight-form-div {
+        width: 400px;
+
+    }
+
+    .eight-form-input {
+        width: 400px;
+    }
+
+    .eight-contacts {
+        width: 768px;
+        display: flex;
+        height: 120px;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+    .footer {
+        box-sizing: border-box;
+        width: 768px;
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    .eight-logo {
+        font-size: 25px;
+        width: 240px;
+        order: -1;
+        text-align: left;
+        padding-left: 40px;
+        box-sizing: border-box;
+    }
+
+    .logo-title_adskiy {
+        font-size: 9px;
+    }
+
+    .logo-title {
+        font-size: 25px;
+    }
+
+    .eight-phone {
+        display: block;
+        font-size: 20px;
+        width: 290px;
+        padding: 0;
+        height: 24px;
+        background-position: 0 0;
+        margin: 0 0;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .eight-insta {
+        display: block;
+        width: 37px;
+        height: 37px;
+        order: 1;
+    }
 }
