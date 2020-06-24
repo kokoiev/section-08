@@ -139,6 +139,12 @@
     text-decoration: none;
 }
 
+.eight-fire {
+    content: url(../image8/fire.png);
+    position: relative;
+    top: 3px;
+}
+
 .logo-title {
     font-size: 15px;
     letter-spacing: 1px;
@@ -158,10 +164,6 @@
     text-transform: uppercase;
 }
 
-.logo-title-EN {
-    padding-left: 5px;
-}
-
 .eight-form-input:valid {
     border: 1px solid green;
 }
@@ -176,10 +178,16 @@
     margin: 0 0;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .eight-container {
         width: 768px;
         background-image: url(../image8/tabletfon.png);
+    }
+
+    .eight-fire {
+        content: url(../image8/firedesk.png);
+        position: relative;
+        top: 3px;
     }
 
     .eight-title {
@@ -258,3 +266,109 @@
         order: 1;
     }
 }
+
+@media (min-width:1280px) {
+    .eight-container {
+        width: 1280px;
+        height: 750px;
+        background-image: url(../image8/Слой\ 575.png);
+
+    }
+
+    .eight-title {
+        font-size: 38px;
+        width: 900px;
+    }
+
+    .eight-text {
+        font-size: 18px;
+        width: 900px;
+        text-align: center;
+
+    }
+
+    .eight-form-div {
+        width: 620px;
+    }
+
+    .eight-form-input {
+        width: 620px;
+        height: 70px;
+    }
+
+    .eight-form-button {
+        width: 350px;
+        height: 70px;
+        background-color: rgb(255, 107, 8);
+        font-size: 13px;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        letter-spacing: 1.5px;
+    }
+
+    .eight-form-input {
+        font-size: 21px;
+    }
+
+    .eight-contacts {
+        width: 1280px;
+        justify-content: space-between;
+    }
+
+    .eight-insta {
+        margin-right: 420px;
+    }
+
+    .eight-phone {
+        font-size: 27px;
+        padding-left: 5px;
+        width: 365px;
+        height: 35px;
+        background-position: left 0px top 0px;
+        background-image: url(../image8/iconteldesk.png);
+    }
+
+    .eight-logo-div {
+        height: 50px;
+        text-align: center;
+    }
+
+    .logo-title {
+        height: 60px;
+        font-size: 29px;
+        margin-top: 0px;
+    }
+
+    .eight-logo {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .logo-title-EN {
+        font-size: 29px;
+    }
+
+    .logo-title_adskiy {
+        font-size: 11px;
+        letter-spacing: 0.5px;
+    }
+
+    .footer {
+        width: 1280px;
+        font-size: 15px;
+    }
+
+    .eigh-logo-img-fire {
+        display: none;
+    }
+
+    .logo-title_img {
+        background-image: url(../image8/firedesk.png);
+        background-repeat: no-repeat;
+    }
+}
+
+/* <img class="eight-logo-img-fire"
+src="./image8/fire.png"
+alt="fire"/> */
